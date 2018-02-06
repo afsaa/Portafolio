@@ -36,12 +36,17 @@ img {
 }
 
 /* Navigation */
+.main-nav {
+  align-content: center;
+}
+
 .main-nav ul {
   display: grid;
   grid-gap: 20px;
   padding: 0;
   list-style: none;
   cursor: pointer;
+  align-content: center;
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -153,9 +158,14 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.portfolio img {
+.portfolio a img {
   width: 100%;
   box-shadow: var(--shadow);
+}
+
+.portfolio a img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 /* Footer */
