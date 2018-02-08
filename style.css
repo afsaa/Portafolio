@@ -212,3 +212,20 @@ footer {
       'top-box-b';
   }
 }
+
+/* Contact */
+#Contacto p {
+  text-align: center; 
+}
+
+#Contacto .icons {
+  text-align: center;
+}
+
+#Contacto .icons a {
+  color: var(--dark);
+}
+
+#Contacto .icons a:hover{
+  color: dodgerblue;
+}
