@@ -81,8 +81,8 @@ img {
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
-    'showcase showcase top-box-a'
-    'showcase showcase top-box-b';
+    'showcase showcase'
+    'showcase showcase';
 }
 
 /* Showcase */
@@ -180,10 +180,6 @@ div.card:hover{
 div.container{
   padding: 10px;
 }
-/* .portfolio a img:hover {
-  opacity: 0.70;
-  filter: alpha(opacity=50);
-} */
 
 /* Footer */
 footer {
@@ -198,8 +194,7 @@ footer {
 @media(max-width: 700px) {
   .top-container {
     grid-template-areas:
-     'showcase showcase'
-     'top-box-a top-box-b';
+     'showcase showcase';
   }
 
   .Showcase h1 {
@@ -224,9 +219,7 @@ footer {
 @media(max-width: 500px) {
   .top-container {
     grid-template-areas:
-      'showcase'
-      'top-box-a'
-      'top-box-b';
+      'showcase';
   }
 }
 
