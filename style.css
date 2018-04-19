@@ -107,7 +107,8 @@ img {
   grid-area: showcase;
   min-height: 400px;
   padding: 3rem;
-  background-image: url(img/showcase.jpeg);
+  background-image: url(img/showcase.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: start;
